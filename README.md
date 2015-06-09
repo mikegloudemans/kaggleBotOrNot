@@ -1,5 +1,5 @@
 # kaggleBotOrNot
-This was my entry for the June 2015 Kaggle contest "Facebook Recruiting IV: Human or Robot?" My model achieved a final AUC of 0.93361 and earned 50th place out of 1004 on the Private Leaderboard.
+This was my entry for the June 2015 Kaggle contest "Facebook Recruiting IV: Human or Robot?" My model achieved a final AUC of 0.93361 and earned 50th place out of 1004 on the Private Leaderboard. Congrats to the winners and to all who participated!
 
 I used the RandomForestClassifier from Python's sklearn with the default settings, except for n_estimators = 500. I then
 computed bot probabilities independently with a LogisticRegression classifier and mixed the results of the two models for
